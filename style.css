@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:ital,wght@1,600&display=swap');
+
+/*-----------
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+ ----------*/
+/*---------------
+   General CSS
+-----------------*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+	background: #fff;
+}
+a{
+	text-decoration: none;
+	list-style: none;
+}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+h1{
+	font-size: 45px;
+}
+h2{
+	font-size: 40px;
+}
+h3{
+	font-size: 30px;
+}
+h4{
+	font-size: 25px;
+}
+h5{
+	font-size: 20px;
+}
+h6{
+	font-size: 15px;
+}
+
+
+
+/*---------------
+   General CSS End
+-----------------*/
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    Header CSS Start
+=-=-=-=-=-=-=-=-=-=-=-=*/
+
+header{
+	background: #c5f1ec;
+	padding: 15px 0;
+}
+.menu{}
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.menu ul li{
+	list-style: none;
+}
+.menu ul li a{
+	display: block;
+	padding: 0 27px;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+	color: #0adaba;	
+	font-size: 20px;
+}
+.menu ul li a:hover{
+	color: #e99d0e;
+}
+.bars{
+	display: none;
+	color: #0adaba;
+	
+}
+.m-logo-r{
+	display: none;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    Header CSS End
+=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    Banner CSS Start
+=-=-=-=-=-=-=-=-=-=-=-=*/
+.m-banner{
+	background: url('photos/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	
+}
+.m-overlay{
+	background: url('photos/design-1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	
+}
+.m-bannerrow{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 120px;
+}
+.m-bannerrow h2{
+	color: #fff;
+	margin-bottom: 70px;
+}
+.m-bannerrow h3{
+	color: #0adaba;
+	margin-bottom: 30px;
+}
+.m-bannerrow h4{
+	color: #e21380;
+	margin-top: 30px;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    Banner CSS End
+=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    Team CSS start
+=-=-=-=-=-=-=-=-=-=-=-=*/
+.team-section{
+	background: #8395a7;
+	padding: 85px 0;
+}
+.members{
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+}
+.member{
+	width: 23.5%;
+	position: relative;
+	overflow: hidden;
+}
+.member-overlay{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+}
+.member-info{
+	text-align: center;
+}
+.section-title h2{
+	color: #0adaba;
+	text-align: center;
+}
+.section-title h2 span{
+	color: #e21380;
+}
+.member-info h4{
+	color: #fff;
+}
+.member-info ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.member-info ul li{
+	padding: 10px;
+}
+.member-info ul li a{
+	color: #fff;
+}
+.member:hover .member-overlay{
+	top: 0;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    Team CSS End
+=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    Service CSS start
+=-=-=-=-=-=-=-=-=-=-=-=*/
+.section-service{
+	background: #fff;
+}
+.m-service{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0 5px;
+
+}
+.service-left{
+	width: 45%;
+}
+.service-left h4{
+	color: #0cc0ac;
+	text-align: center;
+}
+.service-left p{
+	color: 
+}
+.service-right{
+	width: 45%;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    Service CSS End
+=-=-=-=-=-=-=-=-=-=-=-=*/
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    Contact CSS start
+=-=-=-=-=-=-=-=-=-=-=-=*/
+.contact-section{
+	padding: 85px 0;
+	background: #c5f1ec;
+}
+.contact-form{
+	width: 40%;
+	margin: 0 auto;
+}
+.contact-form label{
+	display: block;
+	font-size: 18px;
+	color: #0cc0ac;
+}
+.user-name{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.user-name input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+}
+.f-name{
+	width: 48%;
+}
+.l-name{
+	width: 48%;
+}
+.mail{
+	margin-bottom: 10px;
+}
+.mail input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+}
+.msg{
+	margin-bottom: 10px;
+}
+.msg textarea{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+
+}
+.form-button input{
+	margin-top: 15px;
+	background: #0cc0ac;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	transition: .4s;
+
+}
+.form-button input:hover{
+	cursor: pointer;
+	transform: translateY(-10px);
+}
+
+
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    contact CSS End
+=-=-=-=-=-=-=-=-=-=-=-=*/
+
+/*=-=-=-=-=-=-=-=-=-=-=
+   Footer CSS Start
+=-=-=-=-=-=-=-=-=-=-=-=*/
+
+footer{
+	background: #212a43;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+}
+.f-section{
+	display: flex;
+	justify-content: space-between;
+}
+.f-section-left{}
+.f-section-right{}
+.f-section-right ul{
+	display: flex;
+	justify-content: center;
+}
+.f-section-right ul li{
+	list-style: none;
+	padding: 10px;
+}
+.f-section-right ul li a{}
+.f-section-right ul li a i{
+	color: #fff;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=
+    Footer CSS End
+=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+
+
+
+
+
+

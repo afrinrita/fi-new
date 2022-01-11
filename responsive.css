@@ -1,0 +1,102 @@
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+     Medium Screen Start
+=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+@media(max-width: 991px) {
+	.m-logo{
+		display: none;
+	}
+
+
+	.m-logo-r{
+		display: block;		
+	}
+	.menu{
+		display: none;
+	}
+	.bars{
+		display: block;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.responsive-1{
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 10px;
+		cursor: pointer;
+
+	}
+.about-left{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.about-right{
+	width: 100%;
+}
+.member{
+	width: 48%;
+	margin-bottom: 15px;
+}
+.contact-form{
+	width: 80%;
+}
+
+
+
+
+
+
+
+
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=
+     Medium Screen End
+=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+
+
+
+
+
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+     Small Screen Start
+=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+@media(max-width: 767px){
+	
+
+	.menu ul{
+		display: none;
+	}
+	.member{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.m-bannerrow-left{
+	display: none;
+}
+.m-bannerrow{
+	width: 100%;
+}
+.service-left{
+	width: 80%;
+}
+.service-right{
+	width: 80%;
+}
+
+
+
+
+
+
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=
+     Small Screen End
+=-=-=-=-=-=-=-=-=-=-=-=-=*/
